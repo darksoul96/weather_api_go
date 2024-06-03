@@ -92,4 +92,6 @@ func main() {
 	}
 
 	showCurrentData(weatherData)
+	fmt.Println("Print ANY key to exit")
+	fmt.Scanln()
 }
